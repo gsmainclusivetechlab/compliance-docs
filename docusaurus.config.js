@@ -1,17 +1,17 @@
 module.exports = {
-  title: "GSMA Interoperability Test Platform Documentation",
+  title: "GSMA Mobile Money API Compliance Platform Documentation",
   tagline: "",
   url: "https://docs.interop.gsmainclusivetechlab.io",
   baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "gsmainclusivetechlab", // Usually your GitHub org/user name.
-  projectName: "interop-docs", // Usually your repo name.
+  projectName: "compliance-docs", // Usually your repo name.
   themeConfig: {
     prism: {
       additionalLanguages: ["properties", "ini"],
     },
     navbar: {
-      title: "ITP - Interoperability Test Platform - Documentation",
+      title: "GSMA Mobile Money API Compliance Platform",
       // logo: {
       //   alt: 'ITP logo',
       //   src: 'img/logo.png',
