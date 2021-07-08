@@ -5,7 +5,6 @@ module.exports = {
       "testcases/intro",
       "testcases/uclist",
       "testcases/tclist",
-      "testcases/creating-tc",
     ],
     "User Manual": [
       "manual/quickguide",

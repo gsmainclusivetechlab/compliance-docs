@@ -82,6 +82,3 @@ authenticity of a server SUT), along with a signed client certificate (for ITP
 to use to prove its own identity to a server SUT). In order to help generate
 this signed client certificate, a button is also available on this page to
 download a Certificate Signing Request (CSR) from ITP.
-
-For more details about encryption certifictes, see
-[Secure Connections](./security).

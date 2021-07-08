@@ -47,8 +47,7 @@ behaviour simulated at all.
 For each SUT selected, you will need to enter a URL which the test platform will
 use to send requests. If you wish to use an mTLS encrypted connection to your
 system, you should select "Use Encryption" and provide appropriate certificates.
-For more details on the certificate upload process, please see
-[mTLS configuration](./security).
+For more details on the certificate upload process, please see .
 
 Step 2 - Selecting the system under test:
 ![ITP Session SUT Selection](/img/itpselectsut.png)
@@ -67,7 +66,7 @@ Step 3 - Component URLs:
 In the screenshot above, DFSP 1 is a SUT, and it should use the URL provided to
 send any requests intended for Mowali Hub.
 
-As described in [Connections](../architecture/connections), the URLs provided at
+As described in Connections, the URLs provided at
 this stage are dynamic, and include the session UUID. If your user is a member
 of a group, you can select the session as the default session for your group
 instead, which will provide a static group URL at this stage instead.
