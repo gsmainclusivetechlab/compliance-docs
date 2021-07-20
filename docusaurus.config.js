@@ -1,7 +1,7 @@
 module.exports = {
   title: "GSMA Mobile Money API Compliance Platform Documentation",
   tagline: "",
-  url: "https://docs.interop.gsmainclusivetechlab.io",
+  url: "https://docs.compliance.mobilemoneyapi.io",
   baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "gsmainclusivetechlab", // Usually your GitHub org/user name.
