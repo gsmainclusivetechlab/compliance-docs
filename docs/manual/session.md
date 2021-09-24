@@ -3,16 +3,16 @@ title: Test Sessions
 sidebar_label: Test Sessions
 ---
 
-The execution of tests in the Interoperability Test Platform (ITP) is performed
+The execution of tests on the Mobile Money API Compliance Platform is performed
 through the creation of sessions. Sessions are defined by a selection of test
 cases. During the creation of a session, the user selects the test cases to be
 included, selects any SUTs and configures their address and encryption details.
 After creation, it is possible to run tests by clicking the "Run Test Case"
-button. The newly-created session is available on the home screen of the ITP (as
+button. The newly-created session is available on the home screen of the platform (as
 shown in the picture below), allowing the user to consult previously run tests,
 delete and run new tests.
 
-Home screen with the user sessions: ![ITP Home](/img/itphome.png)
+Home screen with the user sessions: ![Comp Home](/img/comphome.png)
 
 ## Creating a Test Session
 
@@ -33,7 +33,7 @@ the session.
 currently-selected SUT type are displayed here. You can select any set of test
 cases to run during this session.
 
-Step 1 - Session Setup form: ![ITP Session Info](/img/itpsessioninfo.png)
+Step 1 - Session Setup form: ![Compliance Session Info](/img/compsessioninfo.png)
 
 ### Step 2: SUT Selection
 
@@ -47,10 +47,10 @@ behaviour simulated at all.
 For each SUT selected, you will need to enter a URL which the test platform will
 use to send requests. If you wish to use an mTLS encrypted connection to your
 system, you should select "Use Encryption" and provide appropriate certificates.
-For more details on the certificate upload process, please see .
+For more details on the certificate upload process, please see Secure Connections.
 
 Step 2 - Selecting the system under test:
-![ITP Session SUT Selection](/img/itpselectsut.png)
+![Compliance Session SUT Selection](/img/compselectsut.png)
 
 ### Step 3: Configure components
 
@@ -61,7 +61,7 @@ communication. These URLs can also be retrieved after the session has been
 created from the session results page.
 
 Step 3 - Component URLs:
-![ITP Session Configure Components](/img/itpsessionconfigure.png)
+![Comp Session Configure Components](/img/compsessionconfigure.png)
 
 In the screenshot above, DFSP 1 is a SUT, and it should use the URL provided to
 send any requests intended for Mowali Hub.
@@ -86,7 +86,7 @@ selected during creation. From there, it is possible to select a specific test
 case and proceed with the test execution.
 
 Example of session main screen after its creation:
-![Session Screen](/img/itpsessionscreen.png)
+![Session Screen](/img/compsessionscreen.png)
 
 ## Running Tests
 

@@ -5,7 +5,7 @@ sidebar_label: Introduction
 
 ### What is a Use Case?
 
-Within the interoperability test platform (ITP), "_Use Cases_" (UC) represent
+Within the GSMA Mobile Money API Compliance Platform, "_Use Cases_" (UC) represent
 the different goals that actors within the system may have. For example, a
 peer-to-peer (P2P) transfer of money would constitute a use case, as would
 payment to a merchant for some service. Use cases capture the business and user
@@ -22,7 +22,7 @@ within the platform.
 
 This section of the documentation includes more information about use cases in
 general, and about the use cases which the GSMA have made available to test
-within the Interoperability Test Platform. To see more about the different paths
+within the GSMA Mobile Money API Compliance Platform. To see more about the different paths
 available to test within each use case, please see the list of available
 [test cases](./tclist).
 
