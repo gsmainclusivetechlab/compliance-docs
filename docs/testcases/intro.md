@@ -49,7 +49,7 @@ transactions that can occur.
 |       Transfer        |         Payer         |    Consumer    |
 |        Deposit        |         Payee         |    Business    |
 |      Withdrawal       |   Service Provider    |     Device     |
-|        Payment        | Mobile Money Operator |     Agent      |
+|        Payment        | Mobile Money API Provider |     Agent      |
 |        Refund         |           -           |       -        |
 
 These elements can be combined in different ways to define the use case under
@@ -57,19 +57,3 @@ evaluation. For example, in a merchant-initiated merchant payment transaction we
 the Transaction Scenario would be "_payment_", the Initiating Party would be
 "_payee_" and the Initiator Type would be "_business_. If the transaction was
 initiated by a POS, the type would change to "_device_".
-
-### Transaction Actions
-
-In addition to the set of **transaction elements** mentioned earlier, each
-transaction consists of one or more **actions** defined by the services
-available in the APIs.
-
-| Transaction Action      | Description                                                                                  |
-| :---------------------- | :------------------------------------------------------------------------------------------- |
-| Participant             | Retrieve information related to the FSP representing the participant                         |
-| Party                   | Retrieve financial information about a party in a transaction                                |
-| Quote                   | Calculate all values that can influence a transaction, such as fees and commissions          |
-| Transfer                | Performs the transfer of funds from Payer to Payee                                           |
-| Authorization           | Obtain the necessary credentials to carry out a transaction on devices such as POS, ATM, etc |
-| Transaction Request     | Request the transfer of funds by Payer who can approve or reject the request                 |
-| Transaction Information | Obtain information regarding a financial transaction                                         |
