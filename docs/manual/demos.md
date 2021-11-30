@@ -10,5 +10,5 @@ sidebar_label: Platform Demos
 
 ### Simulator Plugins
 <video class="video-container" controls>
-    <source class="video" src="https://compliance-documentation-demos.s3.eu-west-2.amazonaws.com/ComplianceSimulatorPluginDemo.mov" type="video/mp4">
+    <source class="video" src="https://compliance-documentation-demos.s3.eu-west-2.amazonaws.com/ComplianceSimulatorPluginDemo.mov" type="video/mp4"/>
 </video>
