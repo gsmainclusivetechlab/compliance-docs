@@ -37,7 +37,7 @@ carrying out the transaction.
 **Error Number:** Indicates the number of the current error for the test case.
 This will generally be a 3-digit (for HTTP errors) or 4-digit (for MMAPI
 errors) error code, which can be understood with reference to the documentation
-for the APIs under test.
+for the APIs under test. A reference to the business rules error codes can be found [here](https://compliance.mobilemoneyapi.io/tutorials#mobile-money-api-businessrules)
 
 ## List of Test Cases <a name="tc"></a>
 

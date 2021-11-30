@@ -15,6 +15,7 @@ module.exports = {
       "manual/session",
       "manual/results",
       "manual/groups",
+      "manual/demos"
     ],
   },
 };

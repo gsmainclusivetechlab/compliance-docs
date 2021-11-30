@@ -11,7 +11,7 @@ peer-to-peer (P2P) transfer of money would constitute a use case, as would
 payment to a merchant for some service. Use cases capture the business and user
 requirements to demonstrate precisely what to expect from the system. A use case
 includes all possible paths through a given user/system interaction - both the
-primary and alternative flows.
+primary and alternative flows for all use case scenarios defined for the API use case.
 
 The primary path (also called _happy flow_) is the main flow to be tested, where
 it is possible to satisfy all user needs. Alternative paths include several
@@ -50,7 +50,7 @@ transactions that can occur.
 |        Deposit        |         Payee         |    Business    |
 |      Withdrawal       |   Service Provider    |     Device     |
 |        Payment        | Mobile Money API Provider |     Agent      |
-|        Refund         |           -           |       -        |
+|        Refund         |         Payee         |     Business        |
 
 These elements can be combined in different ways to define the use case under
 evaluation. For example, in a merchant-initiated merchant payment transaction we

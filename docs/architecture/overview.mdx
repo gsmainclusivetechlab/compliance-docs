@@ -39,6 +39,16 @@ Specification (powered by
 while business rule validations are controlled by custom logic defined inside
 the test case definition.
 
+### Simulator Plugins
+
+If you are testing your own API on the Compliance Platform, you might run into some issues if you have additional parameters which are not part of the GSMA Mobile Money's API Specification.
+
+To fix this problem you can use a Simulator Plugin. A Simulator Plugin is a JavaScript file you can upload to the platform to make adjustments to the request & responses that go through the platform. 
+What this means is you can essentially manipulate the headers and the body to fit any requirements you might have.
+
+More information can be found here.
+[comment]: <TODO - Add link to tutorial/demo of simulator plugins>
+
 ### Proxy
 
 In order to provide an end-to-end test, the platform must be able to follow all
