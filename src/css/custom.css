@@ -44,7 +44,6 @@ polygon[fill="#000000"] {
 .video-container {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%;
 }
 .video {
   position: absolute;
