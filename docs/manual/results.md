@@ -4,7 +4,7 @@ sidebar_label: Test Results
 ---
 
 After executing a test, all results are stored and available to the user in the
-test session on the Interoperability Test Platform.
+test session on the Mobile Money API Compliance Platform.
 
 ## Session Results
 
@@ -102,7 +102,7 @@ Diagram Editor option, the code generated for the test flow is opened on the
 Mermaid platform. Through Mermaid the user can change the flows, export
 different types of images and generate the diagram markdown file. This
 possibility can be a useful tool for creating and viewing new test cases before
-proposing them to the Interoperability Test Platform.
+proposing them to the Mobile Money API Compliance Platform.
 
 Information of Test Flow tab: ![Example of Test Flow](/img/testflow.png)
 
