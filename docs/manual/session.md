@@ -55,7 +55,7 @@ Step 2 - Selecting the system under test:
 ### Step 3: Configure components
 
 During the execution of the tests, your SUT will need to communicate with other
-components (such as FSP simulators). In step 3 of the session creation wizard,
+components (such as the Service Provider simulator). In step 3 of the session creation wizard,
 you will be presented with the URLs that your SUT should use for this
 communication. These URLs can also be retrieved after the session has been
 created from the session results page.
@@ -63,8 +63,8 @@ created from the session results page.
 Step 3 - Component URLs:
 ![Comp Session Configure Components](/img/compsessionconfigure.png)
 
-In the screenshot above, DFSP 1 is a SUT, and it should use the URL provided to
-send any requests intended for Mowali Hub.
+In the screenshot above, Mobile Money API Provider is a SUT, and it should use the URL provided to
+send any requests intended for the Service Provider.
 
 As described in Connections, the URLs provided at
 this stage are dynamic, and include the session UUID. If your user is a member

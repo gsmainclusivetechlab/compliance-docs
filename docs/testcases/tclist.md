@@ -58,7 +58,7 @@ for the APIs under test. A reference to the business rules error codes can be fo
 
 |                                                                                 Test Case                                                                                 | Test Scenario                                 |                  Results                   | Status | Error |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | --------------------------------------------- | :----------------------------------------: | :----: | :---: |
-|          CIMP100           | Customer-initiated merchant payment (callback, creditParty sent) Transaction                        |                  Approved                  |  Pass  |   -   |
+|          CIMP100           | Customer-initiated merchant payment (callback, creditParty sent)                         |                  Approved                  |  Pass  |   -   |
 |      CIMP200       | Customer-initiated merchant payment (callback, debitParty and creditParty sent)|                  Approved                  |  Pass  |   -   |
 |     CIMP300     | Customer-initiated merchant payment (auth code) |                  Approved                  |  Pass  |   -   |
 |       CIMP400       | Customer-initiated merchant payment (polling, debitParty and creditParty sent)                         |                  Approved                  |  Pass  |  -  |

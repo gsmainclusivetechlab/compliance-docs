@@ -1,5 +1,5 @@
 ---
-title: ITP Use Cases
+title: Compliance Use Cases
 sidebar_label: Introduction
 ---
 

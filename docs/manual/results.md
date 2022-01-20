@@ -134,6 +134,6 @@ Message log: ![Message Log](/img/testmessagelog.png)
 ##### Footnotes
 
 - <a name="testduration">1</a>: This duration is directly related to the
-  Interoperability Test Platform. The performance of the system under test is
+  GSMA Mobile Money API Compliance Platform. The performance of the system under test is
   not evaluated here, since part of the test execution comes from simulated
   components, which may involve artificial simulated delays.

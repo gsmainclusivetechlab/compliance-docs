@@ -11,11 +11,11 @@ sidebar_label: Quick Guide for Tests
 4. [**Select** the System Under Test(s) (**SUT**) and add its **URL**(s)](session#step-2-sut-selection)
 5. [**Configure** the Session](session#step-3-configure-components)
 6. [**Check out** the **Created Session**](session#)
-7. [**Send** a **Test Request** to the Interoperability Test Platform](session#running-tests)
+7. [**Send** a **Test Request** to the Mobile Money API Compliance Platform](session#running-tests)
 
 ### Test Results
 
-1. [**Open** the **Test Session** in the Interoperability Test Platform](results#session-results)
+1. [**Open** the **Test Session** in the Mobile Money API Compliance Platform](results#session-results)
 2. [**Access** the **Test Case** of your choice](results#accessing-test-case-results)
 3. [**Check** the **Test Information**](results#test-information)
 4. [**Access** the **Test Flow** to see a sequence diagram with the messages between the steps](results#test-flow)
