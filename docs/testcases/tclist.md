@@ -118,4 +118,5 @@ for the APIs under test. A reference to the business rules error codes can be fo
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | --------------------------------------------- | :----------------------------------------: | :----: | :---: |
 |          GEN100           | Check for service availability                        |                  Approved                  |  Pass  |   -   |
 |          GEN200           | Retrieve a missing API response - success                        |                  Approved                  |  Pass  |   -   |
-|      GEN4001       | Retrieve a missing API response - failure |                  Declined                  |  Fail  |   401   |
+|      GEN4001       | Retrieve a missing API response - authentication failure |                  Declined                  |  Fail  |   401   |
+|      GEN4002       | Retrieve a missing API response - missing resource failure |                  Declined                  |  Fail  |   404   |
