@@ -78,7 +78,7 @@ module.exports = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © 2020 GSMA . All rights reserved.`,
+      copyright: `Copyright © 2023 GSMA . All rights reserved.`,
     },
   },
   presets: [
